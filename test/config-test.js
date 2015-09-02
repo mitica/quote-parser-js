@@ -8,12 +8,14 @@ describe('config', function() {
 	it('should get LANGUAGES', function() {
 		var languages = config.languages();
 		assert.ok(languages);
-		assert.equal(1, languages.length);
+		assert.equal(7, languages.length);
 	});
 
 	it('should get REGS', function() {
-		var regs = config.regs('ro');
-		assert.ok(regs);
-		assert.ok(regs.length);
+		config.languages().forEach(function(lang) {
+			var regs = config.regs(lang);
+			assert.ok(regs);
+			assert.ok(regs.length);
+		});
 	});
 });
