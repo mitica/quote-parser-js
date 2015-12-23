@@ -1,6 +1,6 @@
 {
   "name": "quote-parser",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A node.js module for extracting quotes from text",
   "main": "./lib/index.js",
   "scripts": {

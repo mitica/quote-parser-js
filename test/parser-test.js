@@ -23,7 +23,9 @@ describe('parser', function() {
 	});
 
 	it('should parse simple quote', function() {
-		var quotes = parser.parse('"Nu cred ca este adevarat!", a spus Vlad Filat', 'ro');
+		var quotes = parser.parse('"Nu cred ca este adevarat!", a spus Vlad Filat', 'ro', {
+			minLength: 15
+		});
 		assert.equal(1, quotes.length);
 		assert.equal('Nu cred ca este adevarat!', quotes[0].text);
 		assert.equal(1, quotes[0].index);
@@ -33,6 +35,7 @@ describe('parser', function() {
 	it('should find quote & author', function() {
 		var text = 'Plus "Nu cred ca este adevarat!", a spus Vlad Filat';
 		var quotes = parser.parse(text, 'ro', {
+			minLength: 15,
 			persons: [{
 				index: 41,
 				id: 101
