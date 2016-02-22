@@ -54,7 +54,7 @@ A list of quotes:
 
 - **text** (String) - quote text;
 - **index** (Number) - quote index in the text;
-- **name** (Object) - an object where can be the name's author:
+- **name** (Object) - an object where can be the author's name:
   - **text** (String);
   - **index** (Number);
 - **author** (Object) - Author if founded.
