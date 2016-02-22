@@ -48,4 +48,48 @@ describe('parser', function() {
 		assert.equal('Vlad Filat', quote.name.text);
 		assert.equal(101, quote.author.id);
 	});
+
+	it('should find quote in a big text', function() {
+		var text = 'Comisia Europeană a adoptat o serie de programe de cooperare transfrontalieră, care au un buget total de un miliard de euro și sunt destinate să sprijine dezvoltarea socială și economică a regiunilor situate de ambele părți ale frontierelor externe ale UE.\n„Cooperarea transfrontalieră este esențială pentru evitarea creării unor noi linii de separare. Această nouă finanțare va contribui la o dezvoltare regională mai integrată și mai durabilă a regiunilor frontaliere învecinate și la o cooperare teritorială mai armonioasă în zona frontierelor externe ale UE”, a declarat Johannes Hahn, comisarul pentru politica europeană de vecinătate și negocieri privind extinderea, potrivit unui comunicat transmis joi de Reprezentanța CE la București, notează Agerpres.ro.\n„Sunt foarte mulțumită că Fondul European de Dezvoltare Regională poate contribui la apropierea UE de vecinii săi. Programele de cooperare transfrontalieră reprezintă exemple concrete ale modului în care UE acționează pentru a-i ajuta pe cetățeni să facă față unor provocări comune, creând astfel un veritabil sentiment de solidaritate și stimulând în același timp competitivitatea economiilor locale”, a declarat Corina Crețu, comisarul pentru politica regională.';
+		var quotes = parser.parse(text, 'ro', {
+			minLength: 15,
+			persons: [{
+				index: 1179,
+				id: 101
+			}]
+		});
+		// console.log(quotes);
+		assert.equal(2, quotes.length);
+	});
+
+	it('EN: should filter START quotes', function() {
+		var text = 'Some text.\nTrump added: "By the way, I released my financial statements..."';
+		var quotes = parser.parse(text, 'en');
+		// console.log(quotes);
+		assert.equal(1, quotes.length);
+		assert.equal('Trump', quotes[0].name.text);
+	});
+
+	it('EN: should filter END quotes', function() {
+		var text = '"It\'s a hellacious problem," said Hugh Ray';
+		var quotes = parser.parse(text, 'en', { minLength: 10 });
+		// console.log(quotes);
+		assert.equal(1, quotes.length);
+		assert.equal('Hugh Ray', quotes[0].name.text);
+		assert.equal(1, quotes[0].index);
+
+		text = '"I\'ll win states that aren\'t in play." Trump said.';
+		quotes = parser.parse(text, 'en');
+		// console.log(quotes);
+		assert.equal(1, quotes.length);
+		assert.equal('Trump', quotes[0].name.text);
+		assert.equal(1, quotes[0].index);
+
+		text = '"Jeb fought very hard," the billionaire businessman said. "It wasn\'t his time. That\'s all."';
+		quotes = parser.parse(text, 'en', { minLength: 10 });
+		// console.log(quotes);
+		assert.equal(1, quotes.length);
+		assert.equal('the billionaire businessman', quotes[0].name.text);
+		assert.equal(1, quotes[0].index);
+	});
 });

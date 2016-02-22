@@ -2,6 +2,8 @@
 
 A node.js module for extracting quotes from text.
 
+Supported languages: ['ro', 'ru', 'bg', 'hu', 'it', 'cs', 'pl', 'en']
+
 ## Usage
 
 ```
@@ -40,9 +42,9 @@ Return a list of supported languages.
 Extract quotes from text.
 
 - **text** (String) **required**;
-- **lang** (String) **required** - two chars language code. Supported: ['ro', 'ru', 'bg', 'hu', 'it', 'cs', 'pl'];
-- **config** (Object):
-  - *minLength* (Number) - min quote length, default: 10;
+- **lang** (String) **required** - two chars language code;
+- **options** (Object):
+  - *minLength* (Number) - min quote length, default: 30;
   - *persons* ([Person]) - a list of persons, a person:
     - *index* (Number) **required** - index of the person name in text;
 

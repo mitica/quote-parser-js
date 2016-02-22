@@ -8,7 +8,7 @@ describe('config', function() {
 	it('should get LANGUAGES', function() {
 		var languages = config.languages();
 		assert.ok(languages);
-		assert.equal(7, languages.length);
+		assert.equal(8, languages.length);
 	});
 
 	it('should get REGS', function() {
