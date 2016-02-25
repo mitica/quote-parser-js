@@ -2,7 +2,9 @@
 
 A node.js module for extracting quotes from text.
 
-Supported languages: ['ro', 'ru', 'bg', 'hu', 'it', 'cs', 'pl', 'en']
+Supported languages: ['ro', 'ru', 'bg', 'hu', 'it', 'cs', 'pl', 'en'].
+
+**quote-parser** doesn't change original text, so you migth replace _&nbsp;_ with SPACE.
 
 ## Usage
 
