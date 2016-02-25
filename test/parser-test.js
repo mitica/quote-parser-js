@@ -91,5 +91,32 @@ describe('parser', function() {
 		assert.equal(1, quotes.length);
 		assert.equal('the billionaire businessman', quotes[0].name.text);
 		assert.equal(1, quotes[0].index);
+
+		text = 'Photo: Jason DeFillippo\n“My parents never really told me I couldn’t do anything.” – Shaun White\nThis particular episode comes from a fun event. “I believe that peace means that one person has the biggest stick. I build those sticks.” – Walter O’Brien';
+		quotes = parser.parse(text, 'en');
+		// console.log(quotes);
+		assert.equal(2, quotes.length);
+		assert.equal('Shaun White', quotes[0].name.text);
+		assert.equal(25, quotes[0].index);
+		assert.equal('Walter O’Brien', quotes[1].name.text);
 	});
+
+	// it('EN: should filter web page', function(done) {
+	// 	var $ = require('cheerio');
+	// 	var request = require('request');
+	// 	var entities = require('entities');
+	// 	var fs = require('fs');
+
+	// 	request('http://fourhourworkweek.com/blog/', function(error, response, body) {
+	// 		var t, text, quotes;
+	// 		if (!error && response.statusCode == 200) {
+	// 			t = $.load(body)("body");
+	// 			text = t.text();
+	// 			fs.writeFileSync('./test.txt', text);
+	// 			quotes = parser.parse(text, 'en');
+	// 			console.log(quotes); //eslint-disable-line
+	// 		}
+	// 		done();
+	// 	});
+	// });
 });
