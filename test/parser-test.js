@@ -101,22 +101,17 @@ describe('parser', function() {
 		assert.equal('Walter O’Brien', quotes[1].name.text);
 	});
 
-	// it('EN: should filter web page', function(done) {
-	// 	var $ = require('cheerio');
-	// 	var request = require('request');
-	// 	var entities = require('entities');
-	// 	var fs = require('fs');
+	it('NBSP: should filter web page', function(done) {
+		var fs = require('fs');
+		var path = require('path');
 
-	// 	request('http://fourhourworkweek.com/blog/', function(error, response, body) {
-	// 		var t, text, quotes;
-	// 		if (!error && response.statusCode == 200) {
-	// 			t = $.load(body)("body");
-	// 			text = t.text();
-	// 			fs.writeFileSync('./test.txt', text);
-	// 			quotes = parser.parse(text, 'en');
-	// 			console.log(quotes); //eslint-disable-line
-	// 		}
-	// 		done();
-	// 	});
-	// });
+		fs.readFile(path.join(__dirname, 'data', 'fhww-blog.txt'), function(error, text) {
+			if (error) {
+				return done(error);
+			}
+			var quotes = parser.parse(text, 'en');
+			assert.equal(4, quotes.length);
+			done();
+		});
+	});
 });

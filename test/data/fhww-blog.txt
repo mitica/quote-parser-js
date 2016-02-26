@@ -1,0 +1,1749 @@
+
+  
+        
+
+      
+
+        
+          
+        
+
+        
+          
+        
+
+        
+          
+        
+
+        
+          
+            
+          
+        
+
+        
+          
+          
+            
+          
+        
+
+        
+        
+        
+
+      
+
+      
+
+        Skip to content
+        
+           Podcast
+           TV Show
+           Books
+        
+        
+          
+            
+            
+              
+              
+              
+              
+            
+          
+        
+        
+          Home
+Podcast
+TV Show
+Books
+About
+
+  Tim Ferriss Bio
+  Causes
+  Media Kit and Samples
+  Terms of Service
+  Disclosure – The Full Monty
+  Privacy Policy
+
+
+Contact
+
+  Media Kit and Samples
+  Corrections? Please Fill Out This Form.
+  Contacts
+  Jobs
+
+
+        
+
+        
+          
+            
+            
+            
+            
+          
+          
+  
+    Search for:
+    
+  
+  
+
+        
+
+      
+
+      
+
+    
+
+    
+
+  
+    
+
+    
+            
+        
+
+  
+          
+        February 24, 2016     
+    
+    Kaskade and Sekou Andrews: The Musician and the Poet
+
+        5 Comments
+    
+    Share this:FacebookTwitterEmailReddit
+          
+        Written by Tim Ferriss
+                
+          Topics: The Tim Ferriss Show        
+              
+      
+
+    
+    Photo credit: Jason DeFillippo
+This episode is a special double header. It features one interview and one performance.
+First up is Kaskade (@Kaskade), widely considered one of the Founding Fathers of Progressive House Music. He’s been voted “America’s Best DJ” twice by DJ Times, headlined Coachella 4 times, and been nominated for a Grammy 5 times.
+If you want to hear a cool behind-the-scenes story about how he created the hit song 4 am, check out this 2-minute clip.
+Next, you’ll hear Sekou Andrews (@SekouAndrews), the most impressive poetic voice I’ve ever heard. I first saw him perform at TED, where he blew my mind. Sekou is a schoolteacher turned 2x National Poetry Slam champion. He has presented privately for Barack Obama, Bono, Oprah Winfrey, Maya Angelou, as well as for many Fortune 500 companies.  If you ever have the chance to hear him live or hire him, take it.
+Or, just spend a minute and learn about the “soul selfie.”
+Photo credit: Jason DeFillippo
+Each one of these takes a few minutes to get warmed up, so be patient. There are gems in both. Among other things…
+
+Kaskade covers his first breaks, making his own luck, formative musical influences, and we dig into his notetaking process, and the origins of one of his biggest hits.
+Sekou will inspire you to be inspired by your story. Do you want to change your narrative, your internal dialogue, to be more successful? Do you need to get back on the horse, or have an effective pep talk in your back pocket?
+
+This might be the recording you listen to over and over again. There is a lot of practical philosophy embedded in and between the lines, so listen to it all.
+
+      
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+          
+      
+    
+    ( function() {
+      var func = function() {
+        var iframe_form = document.getElementById('wpcom-iframe-form-c81eee6ef8b65c1f35915a79794c8825-56d053cc43e86');
+        var iframe = document.getElementById('wpcom-iframe-c81eee6ef8b65c1f35915a79794c8825-56d053cc43e86');
+        if ( iframe_form && iframe ) {
+          iframe_form.submit();
+          iframe.onload = function() {
+            iframe.contentWindow.postMessage( {
+              'msg_type': 'poll_size',
+              'frame_id': 'wpcom-iframe-c81eee6ef8b65c1f35915a79794c8825-56d053cc43e86'
+            }, window.location.protocol + '//wpcomwidgets.com' );
+          }
+        }
+
+        // Autosize iframe
+        var funcSizeResponse = function( e ) {
+          var origin = document.createElement( 'a' );
+          origin.href = e.origin;
+
+          // Verify message origin
+          if ( 'wpcomwidgets.com' !== origin.host )
+            return;
+
+          // Verify message is in a format we expect
+          if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+            return;
+
+          switch ( e.data.msg_type ) {
+            case 'poll_size:response':
+              var iframe = document.getElementById( e.data._request.frame_id );
+
+              if ( iframe && '' === iframe.width )
+                iframe.width = '100%';
+              if ( iframe && '' === iframe.height )
+                iframe.height = parseInt( e.data.height );
+
+              return;
+            default:
+              return;
+          }
+        }
+
+        if ( 'function' === typeof window.addEventListener ) {
+          window.addEventListener( 'message', funcSizeResponse, false );
+        } else if ( 'function' === typeof window.attachEvent ) {
+          window.attachEvent( 'onmessage', funcSizeResponse );
+        }
+      }
+      if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+      else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+      else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+    } )();
+    
+    
+
+Listen to it on iTunes.
+Stream by clicking here.
+Download as an MP3 by right-clicking here and choosing “save as.”
+
+Want to hear another podcast with a mega-successful performer? — Listen to my conversation with Jamie Foxx. In this episode, we discuss his workout routines, untold Hollywood stories, and he shares many of his best impressions. (Stream below or right-click here to download):
+      
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+          
+      
+    
+    ( function() {
+      var func = function() {
+        var iframe_form = document.getElementById('wpcom-iframe-form-b9b11d475133b801f4ad62ce7434529f-56d053cc4450d');
+        var iframe = document.getElementById('wpcom-iframe-b9b11d475133b801f4ad62ce7434529f-56d053cc4450d');
+        if ( iframe_form && iframe ) {
+          iframe_form.submit();
+          iframe.onload = function() {
+            iframe.contentWindow.postMessage( {
+              'msg_type': 'poll_size',
+              'frame_id': 'wpcom-iframe-b9b11d475133b801f4ad62ce7434529f-56d053cc4450d'
+            }, window.location.protocol + '//wpcomwidgets.com' );
+          }
+        }
+
+        // Autosize iframe
+        var funcSizeResponse = function( e ) {
+          var origin = document.createElement( 'a' );
+          origin.href = e.origin;
+
+          // Verify message origin
+          if ( 'wpcomwidgets.com' !== origin.host )
+            return;
+
+          // Verify message is in a format we expect
+          if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+            return;
+
+          switch ( e.data.msg_type ) {
+            case 'poll_size:response':
+              var iframe = document.getElementById( e.data._request.frame_id );
+
+              if ( iframe && '' === iframe.width )
+                iframe.width = '100%';
+              if ( iframe && '' === iframe.height )
+                iframe.height = parseInt( e.data.height );
+
+              return;
+            default:
+              return;
+          }
+        }
+
+        if ( 'function' === typeof window.addEventListener ) {
+          window.addEventListener( 'message', funcSizeResponse, false );
+        } else if ( 'function' === typeof window.attachEvent ) {
+          window.attachEvent( 'onmessage', funcSizeResponse );
+        }
+      }
+      if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+      else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+      else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+    } )();
+    
+    
+
+This podcast is brought to you by Audible. I have used Audible for years and I love audio books. I have two to recommend:
+
+The Graveyard Book by Neil Gaiman
+Vagabonding by Rolf Potts
+
+All you need to do to get your free 30-day Audible trial is go to Audible.com/Tim. Choose one of the above books, or choose between more than 180,000 audio programs. That could be a book, a newspaper, a magazine, or even a class. It’s that easy. Go to Audible.com/Tim and get started today. Enjoy!
+This podcast is also brought to you by 99Designs, the world’s largest marketplace of graphic designers. I have used them for years to create some amazing designs. When your business needs a logo, website design, business card, or anything you can imagine, check out 99Designs.
+I used them to rapid prototype the cover for The 4-Hour Body, and I’ve also had them help with display advertising and illustrations. If you want a more personalized approach, I recommend their 1-on-1 service. You get original designs from designers around the world. The best part? You provide your feedback, and then you end up with a product that you’re happy with or your money back. Click this link and get a free $99 upgrade. Give it a test run.
+QUESTION(S) OF THE DAY: What are your thoughts on my first live episode of the podcast? Would you like me to do more of these? Please let me know in the comments.
+Scroll below for links and show notes…
+ Read More →
+Share this:FacebookTwitterEmailReddit     
+  
+        5 Comments / Leave a comment or question
+  
+  
+
+      
+        
+
+  
+          
+        February 18, 2016     
+    
+    Shaun White and the Magic of “Who Cares?”
+
+        30 Comments
+    
+    Share this:FacebookTwitterEmailReddit
+          
+        Written by Tim Ferriss
+                
+          Topics: The Tim Ferriss Show        
+              
+      
+
+    
+    
+Photo: Jason DeFillippo
+“My parents never really told me I couldn’t do anything.” – Shaun White
+This particular episode comes from a fun event — my first live podcast at the iconic Troubadour in L.A. It sold out through my newsletter in 30 minutes, so thanks to all of you who came. If you haven’t signed up for the email newsletter, you should check it out. It’s free. Just go to fourhourworkweek.com/friday.
+There were quite a few amazing guests at the event, and we’re going to divide them up into a few episodes.
+Shaun White (@ShaunWhite) is our first — a professional snowboarder and skateboarder. Among his formidable feats of strength:
+
+He’s a 2x Olympic Gold medalist.
+He holds the X Games record for gold medals at 15, as well as the highest overall medal count at 24.
+Shaun has earned the number two spot on BusinessWeek’s list of the 100 most powerful and marketable athletes.
+And — ACH-TUNG! — for those near L.A. or willing to travel, Shaun is hosting an incredible event called Air + Style. Think of it as X Games meets Coachella, where you can listen to world-famous bands and then see jumps off of a 16-story ramp (no joke), among other excitement. Check it out at airandstyle.com. For 20% off general or VIP admission, you can use code “TimFerriss.” I get no cut, and I’ve already bought four tickets for myself and friends. The code is only good until midnight PT on February 19th (Friday).
+
+If you only have a couple of minutes, listen here to discover who Shaun considered one of his biggest mentors and the lessons he learned.
+Enjoy!
+
+      
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+          
+      
+    
+    ( function() {
+      var func = function() {
+        var iframe_form = document.getElementById('wpcom-iframe-form-0a798bc58b00c0be265e08b12759fc07-56d053cc500ad');
+        var iframe = document.getElementById('wpcom-iframe-0a798bc58b00c0be265e08b12759fc07-56d053cc500ad');
+        if ( iframe_form && iframe ) {
+          iframe_form.submit();
+          iframe.onload = function() {
+            iframe.contentWindow.postMessage( {
+              'msg_type': 'poll_size',
+              'frame_id': 'wpcom-iframe-0a798bc58b00c0be265e08b12759fc07-56d053cc500ad'
+            }, window.location.protocol + '//wpcomwidgets.com' );
+          }
+        }
+
+        // Autosize iframe
+        var funcSizeResponse = function( e ) {
+          var origin = document.createElement( 'a' );
+          origin.href = e.origin;
+
+          // Verify message origin
+          if ( 'wpcomwidgets.com' !== origin.host )
+            return;
+
+          // Verify message is in a format we expect
+          if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+            return;
+
+          switch ( e.data.msg_type ) {
+            case 'poll_size:response':
+              var iframe = document.getElementById( e.data._request.frame_id );
+
+              if ( iframe && '' === iframe.width )
+                iframe.width = '100%';
+              if ( iframe && '' === iframe.height )
+                iframe.height = parseInt( e.data.height );
+
+              return;
+            default:
+              return;
+          }
+        }
+
+        if ( 'function' === typeof window.addEventListener ) {
+          window.addEventListener( 'message', funcSizeResponse, false );
+        } else if ( 'function' === typeof window.attachEvent ) {
+          window.attachEvent( 'onmessage', funcSizeResponse );
+        }
+      }
+      if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+      else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+      else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+    } )();
+    
+    
+
+Listen to it on iTunes.
+Stream by clicking here.
+Download as an MP3 by right-clicking here and choosing “save as.”
+
+Want to hear another podcast from a world-class athlete? You will probably enjoy my podcast with Triple H. In this episode, we discuss pre-fight rituals, injury avoidance, and Floyd Mayweather, Jr. (stream below or right-click here to download):       
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+          
+      
+    
+    ( function() {
+      var func = function() {
+        var iframe_form = document.getElementById('wpcom-iframe-form-57990246d557267f11459c3252eecd3f-56d053cc50815');
+        var iframe = document.getElementById('wpcom-iframe-57990246d557267f11459c3252eecd3f-56d053cc50815');
+        if ( iframe_form && iframe ) {
+          iframe_form.submit();
+          iframe.onload = function() {
+            iframe.contentWindow.postMessage( {
+              'msg_type': 'poll_size',
+              'frame_id': 'wpcom-iframe-57990246d557267f11459c3252eecd3f-56d053cc50815'
+            }, window.location.protocol + '//wpcomwidgets.com' );
+          }
+        }
+
+        // Autosize iframe
+        var funcSizeResponse = function( e ) {
+          var origin = document.createElement( 'a' );
+          origin.href = e.origin;
+
+          // Verify message origin
+          if ( 'wpcomwidgets.com' !== origin.host )
+            return;
+
+          // Verify message is in a format we expect
+          if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+            return;
+
+          switch ( e.data.msg_type ) {
+            case 'poll_size:response':
+              var iframe = document.getElementById( e.data._request.frame_id );
+
+              if ( iframe && '' === iframe.width )
+                iframe.width = '100%';
+              if ( iframe && '' === iframe.height )
+                iframe.height = parseInt( e.data.height );
+
+              return;
+            default:
+              return;
+          }
+        }
+
+        if ( 'function' === typeof window.addEventListener ) {
+          window.addEventListener( 'message', funcSizeResponse, false );
+        } else if ( 'function' === typeof window.attachEvent ) {
+          window.attachEvent( 'onmessage', funcSizeResponse );
+        }
+      }
+      if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+      else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+      else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+    } )();
+    
+    
+
+This podcast is brought to you by 99Designs, the world’s largest marketplace of graphic designers. I have used them for years to create some amazing designs. When your business needs a logo, website design, business card, or anything you can imagine, check out 99Designs.
+I used them to rapid prototype the cover for The 4-Hour Body, and I’ve also had them help with display advertising and illustrations. If you want a more personalized approach, I recommend their 1-on-1 service. You get original designs from designers around the world. The best part? You provide your feedback, and then you end up with a product that you’re happy with or your money back. Click this link and get a free $99 upgrade. Give it a test run.
+This podcast is also brought to you by Wealthfront. Wealthfront is a massively disruptive (in a good way) set-it-and-forget-it investing service, led by technologists from places like Apple. It has exploded in popularity in the last two years and now has more than $2.5B under management. Why? Because you can get services previously limited to the ultra-wealthy and only pay pennies on the dollar for them, and it’s all through smarter software instead of retail locations and bloated sales teams.
+Check out wealthfront.com/tim, take their risk assessment quiz, which only takes 2-5 minutes, and they’ll show you—for free–exactly the portfolio they’d put you in. If you want to just take their advice and do it yourself, you can. Well worth a few minutes to explore: wealthfront.com/tim.
+QUESTION(S) OF THE DAY: Based on Shaun’s two-goal philosophy, what two goals would you set for yourself? How would they help with your life or business? Please let me know in the comments.
+Scroll below for links and show notes…
+ Read More →
+Share this:FacebookTwitterEmailReddit     
+  
+        30 Comments / Leave a comment or question
+  
+  
+
+      
+        
+
+  
+          
+        February 16, 2016     
+    
+    Meet “Scorpion,” The Real-Life Santa Claus with an IQ of 197
+
+        225 Comments
+    
+    Share this:FacebookTwitterEmailReddit
+          
+        Written by Tim Ferriss
+                
+          Topics: The Tim Ferriss Show        
+              
+      
+
+    
+    
+“I believe that peace means that one person has the biggest stick. I build those sticks.” – Walter O’Brien
+This episode might make your head explode… in the best way possible.
+Walter O’Brien (AKA “Scorpion”) (@walterobrienscs) is the founder of Scorpion Computer Services and ConciergeUp.com, a for-hire global think tank that provides intelligence-on-demand as a concierge service. The tag line for the latter is, “for any funded need.”
+
+Need to defend against chemical warfare?
+Move an entire manufacturing operation over a weekend?
+ Save a loved one from a deceitful spouse?
+ Thread the needle on a thorny legal issue?
+Become a pop star in a foreign country?
+
+When Walter and his team of 2,000+ distributed geniuses say “any funded need,” they mean it literally.
+Born in Ireland, Walter was diagnosed as a child prodigy with an IQ of 197. He became an Irish national coding champion and competed in the Olympics in informatics.
+Fast forward to today, he and Scorpion get paid to fix every imaginable problem for billionaires, startups, governments, Fortune 500 companies, and people like you and me. On the large side, it ranges from mitigating risk on $1.9 trillion of investments to inventing artificial intelligence engines to protect United States war fighters in Afghanistan.
+Walter is also the executive producer of the hit CBS TV show Scorpion, inspired by his life, which has reached more than 26 million television viewers.
+I was introduced to Walter well before the show, and we go deep in this conversation, with lots of amazing and also hilarious examples of problem solving.
+If you only have a few minutes, listen to this mind-blowing segment on head transplants. (Yes, head transplants.)
+Enjoy!
+
+      
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+          
+      
+    
+    ( function() {
+      var func = function() {
+        var iframe_form = document.getElementById('wpcom-iframe-form-28531b7b324ee914207bdd7b51a1e2b0-56d053cc5dec8');
+        var iframe = document.getElementById('wpcom-iframe-28531b7b324ee914207bdd7b51a1e2b0-56d053cc5dec8');
+        if ( iframe_form && iframe ) {
+          iframe_form.submit();
+          iframe.onload = function() {
+            iframe.contentWindow.postMessage( {
+              'msg_type': 'poll_size',
+              'frame_id': 'wpcom-iframe-28531b7b324ee914207bdd7b51a1e2b0-56d053cc5dec8'
+            }, window.location.protocol + '//wpcomwidgets.com' );
+          }
+        }
+
+        // Autosize iframe
+        var funcSizeResponse = function( e ) {
+          var origin = document.createElement( 'a' );
+          origin.href = e.origin;
+
+          // Verify message origin
+          if ( 'wpcomwidgets.com' !== origin.host )
+            return;
+
+          // Verify message is in a format we expect
+          if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+            return;
+
+          switch ( e.data.msg_type ) {
+            case 'poll_size:response':
+              var iframe = document.getElementById( e.data._request.frame_id );
+
+              if ( iframe && '' === iframe.width )
+                iframe.width = '100%';
+              if ( iframe && '' === iframe.height )
+                iframe.height = parseInt( e.data.height );
+
+              return;
+            default:
+              return;
+          }
+        }
+
+        if ( 'function' === typeof window.addEventListener ) {
+          window.addEventListener( 'message', funcSizeResponse, false );
+        } else if ( 'function' === typeof window.attachEvent ) {
+          window.attachEvent( 'onmessage', funcSizeResponse );
+        }
+      }
+      if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+      else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+      else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+    } )();
+    
+    
+
+Listen to it on iTunes.
+Stream by clicking here.
+Download as an MP3 by right-clicking here and choosing “save as.”
+
+Want to hear another podcast from a world-class computer scientist? — Listen to my conversation with Luis von Ahn, the founder and CEO of DuoLingo. In this episode, we discuss learning languages, building companies, and changing the world (stream below or right-click here to download):
+      
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+          
+      
+    
+    ( function() {
+      var func = function() {
+        var iframe_form = document.getElementById('wpcom-iframe-form-0d176eeeb7ecb849dde1bc36a529a25b-56d053cc5e71a');
+        var iframe = document.getElementById('wpcom-iframe-0d176eeeb7ecb849dde1bc36a529a25b-56d053cc5e71a');
+        if ( iframe_form && iframe ) {
+          iframe_form.submit();
+          iframe.onload = function() {
+            iframe.contentWindow.postMessage( {
+              'msg_type': 'poll_size',
+              'frame_id': 'wpcom-iframe-0d176eeeb7ecb849dde1bc36a529a25b-56d053cc5e71a'
+            }, window.location.protocol + '//wpcomwidgets.com' );
+          }
+        }
+
+        // Autosize iframe
+        var funcSizeResponse = function( e ) {
+          var origin = document.createElement( 'a' );
+          origin.href = e.origin;
+
+          // Verify message origin
+          if ( 'wpcomwidgets.com' !== origin.host )
+            return;
+
+          // Verify message is in a format we expect
+          if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+            return;
+
+          switch ( e.data.msg_type ) {
+            case 'poll_size:response':
+              var iframe = document.getElementById( e.data._request.frame_id );
+
+              if ( iframe && '' === iframe.width )
+                iframe.width = '100%';
+              if ( iframe && '' === iframe.height )
+                iframe.height = parseInt( e.data.height );
+
+              return;
+            default:
+              return;
+          }
+        }
+
+        if ( 'function' === typeof window.addEventListener ) {
+          window.addEventListener( 'message', funcSizeResponse, false );
+        } else if ( 'function' === typeof window.attachEvent ) {
+          window.attachEvent( 'onmessage', funcSizeResponse );
+        }
+      }
+      if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+      else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+      else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+    } )();
+    
+    
+
+
+This podcast is brought to you by Wealthfront. Wealthfront is a massively disruptive (in a good way) set-it-and-forget-it investing service, led by technologists from places like Apple. It has exploded in popularity in the last two years and now has more than $2.5B under management. Why? Because you can get services previously limited to the ultra-wealthy and only pay pennies on the dollar for them, and it’s all through smarter software instead of retail locations and bloated sales teams.
+Check out wealthfront.com/tim, take their risk assessment quiz, which only takes 2-5 minutes, and they’ll show you—for free–exactly the portfolio they’d put you in. If you want to just take their advice and do it yourself, you can. Well worth a few minutes to explore: wealthfront.com/tim.
+This podcast is also brought to you by Boll & Branch. There is a lot of nonsense in the bedding business. For instance, did you know thread-count is not a good measurement of quality? It’s a total myth. The “Made in Italy” label? It isn’t something you should necessarily pay extra for because it generally means it’s just finished in Italy and woven in places like China.
+The general industry mark-up for bedding is 700 to 800 percent at most retailers. Boll & Branch creates incredibly high-quality bedding. They are the same sheets you’ll find at my home in San Francisco.
+The best part? You can try anything you order at home for 30 days. If you don’t love it, send it back and get a full refund. Go to Boll & Branch and use promo code “TIM” for 20% off your entire order. Whether sheets, towels, blankets, duvet covers, or anything else. Shipping is always free.
+QUESTION(S) OF THE DAY: What is a problem you would like to have ConciergeUp solve for you? Please let me know in the comments.
+Scroll below for links and show notes…
+ Read More →
+Share this:FacebookTwitterEmailReddit     
+  
+        225 Comments / Leave a comment or question
+  
+  
+
+      
+        
+
+  
+          
+        February 10, 2016     
+    
+    How Seth Godin Manages His Life — Rules, Principles, and Obsessions
+
+        105 Comments
+    
+    Share this:FacebookTwitterEmailReddit
+          
+        Written by Tim Ferriss
+                
+          Topics: The Tim Ferriss Show        
+              
+      
+
+    
+    (Photo: Brian Bloom)
+“We can’t out-obedience the competition.” – Seth Godin
+I expected this episode to be amazing, and Seth 10x’d expectations. He’s incredible.
+Seth Godin (@thisissethsblog) is the author of 17 bestselling books that have been translated into more than 35 languages. He writes about the way ideas spread, marketing, strategic quitting, leadership, and — most of all — challenging the status quo in all areas. His books include Linchpin, Tribes, The Dip, Purple Cow, and What to Do When it’s Your Turn (and it’s Always Your Turn).
+Seth has founded several companies, including Yoyodyne and Squidoo. His blog (which you can find by typing “Seth” into Google) is one of the most popular in the world. In 2013, Godin was inducted into the Direct Marketing Hall of Fame. Recently, Godin turned the book publishing world on its ear by launching a series of four books via Kickstarter. The campaign reached its goal in just three hours and became the most successful book project in Kickstarter history.
+If you only have a couple of minutes, you should definitely listen to this segment on how to handle life transitions.
+In this episode, we cover dozens of topics and stories, including some he’s never discussed publicly before. Here’s a small sample:
+
+A list of the audiobooks he listens to repeatedly, some once per month
+His morning routine, breakfast, dietary habits, and email processing
+Meditative practices
+Why he’s fixated on and mastered coffee and vodka, despite the fact that he consumes neither
+Suggestions for going from “wantrepreneur” to entrepreneur
+How to determine if you’re better off a “freelancer” or “entrepreneur,” and the differences in his mind
+Why he has the most impressive cookbook collection our mutual chef friends have ever seen
+His rules for saying “no” to opportunities, how he thinks about public speaking, etc.
+His recipe for honey oatmeal vodka, and his favorite chocolates in the world
+Thoughts on improving how parents educate their children
+General philosophies and guidelines he uses for life management
+
+Enjoy!
+
+      
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+          
+      
+    
+    ( function() {
+      var func = function() {
+        var iframe_form = document.getElementById('wpcom-iframe-form-f37fedef6c130c91f7f37c0c10d914f4-56d053cc6ee47');
+        var iframe = document.getElementById('wpcom-iframe-f37fedef6c130c91f7f37c0c10d914f4-56d053cc6ee47');
+        if ( iframe_form && iframe ) {
+          iframe_form.submit();
+          iframe.onload = function() {
+            iframe.contentWindow.postMessage( {
+              'msg_type': 'poll_size',
+              'frame_id': 'wpcom-iframe-f37fedef6c130c91f7f37c0c10d914f4-56d053cc6ee47'
+            }, window.location.protocol + '//wpcomwidgets.com' );
+          }
+        }
+
+        // Autosize iframe
+        var funcSizeResponse = function( e ) {
+          var origin = document.createElement( 'a' );
+          origin.href = e.origin;
+
+          // Verify message origin
+          if ( 'wpcomwidgets.com' !== origin.host )
+            return;
+
+          // Verify message is in a format we expect
+          if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+            return;
+
+          switch ( e.data.msg_type ) {
+            case 'poll_size:response':
+              var iframe = document.getElementById( e.data._request.frame_id );
+
+              if ( iframe && '' === iframe.width )
+                iframe.width = '100%';
+              if ( iframe && '' === iframe.height )
+                iframe.height = parseInt( e.data.height );
+
+              return;
+            default:
+              return;
+          }
+        }
+
+        if ( 'function' === typeof window.addEventListener ) {
+          window.addEventListener( 'message', funcSizeResponse, false );
+        } else if ( 'function' === typeof window.attachEvent ) {
+          window.attachEvent( 'onmessage', funcSizeResponse );
+        }
+      }
+      if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+      else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+      else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+    } )();
+    
+    
+
+Listen to it on iTunes.
+Stream by clicking here.
+Download as an MP3 by right-clicking here and choosing “save as.”
+
+Want to hear another podcast related to leadership and marketing? — Listen to my conversation with Derek Sivers. In my conversation with Seth Godin, he mentions that this was his favorite episode. “I love Derek,” were his exact words. In this podcast, Derek discusses developing confidence, finding happiness, and saying “no” to millions (stream below or right-click here to download):
+      
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+          
+      
+    
+    ( function() {
+      var func = function() {
+        var iframe_form = document.getElementById('wpcom-iframe-form-c87f8ac040ca8b428c4445f306aebd63-56d053cc6f58c');
+        var iframe = document.getElementById('wpcom-iframe-c87f8ac040ca8b428c4445f306aebd63-56d053cc6f58c');
+        if ( iframe_form && iframe ) {
+          iframe_form.submit();
+          iframe.onload = function() {
+            iframe.contentWindow.postMessage( {
+              'msg_type': 'poll_size',
+              'frame_id': 'wpcom-iframe-c87f8ac040ca8b428c4445f306aebd63-56d053cc6f58c'
+            }, window.location.protocol + '//wpcomwidgets.com' );
+          }
+        }
+
+        // Autosize iframe
+        var funcSizeResponse = function( e ) {
+          var origin = document.createElement( 'a' );
+          origin.href = e.origin;
+
+          // Verify message origin
+          if ( 'wpcomwidgets.com' !== origin.host )
+            return;
+
+          // Verify message is in a format we expect
+          if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+            return;
+
+          switch ( e.data.msg_type ) {
+            case 'poll_size:response':
+              var iframe = document.getElementById( e.data._request.frame_id );
+
+              if ( iframe && '' === iframe.width )
+                iframe.width = '100%';
+              if ( iframe && '' === iframe.height )
+                iframe.height = parseInt( e.data.height );
+
+              return;
+            default:
+              return;
+          }
+        }
+
+        if ( 'function' === typeof window.addEventListener ) {
+          window.addEventListener( 'message', funcSizeResponse, false );
+        } else if ( 'function' === typeof window.attachEvent ) {
+          window.attachEvent( 'onmessage', funcSizeResponse );
+        }
+      }
+      if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+      else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+      else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+    } )();
+    
+    
+
+
+This podcast is brought to you by Audible. I have used Audible for years and I love audio books. I have 2 to recommend:
+
+The Graveyard Book by Neil Gaiman
+Vagabonding by Rolf Potts
+
+All you need to do to get your free audiobook and a free 30-day trial is go to Audible.com/tim. Choose one of the above books, or choose between more than 180,000 audio programs. That could be a book, a newspaper, a magazine or even a class. It’s that easy. Go to Audible.com/Tim and get started today. Enjoy!
+This podcast is also brought to you by 99Designs, the world’s largest marketplace of graphic designers. I have used them for years to create some amazing designs. When your business needs a logo, website design, business card, or anything you can imagine, check out 99Designs.
+I used them to rapid prototype the cover for The 4-Hour Body, and I’ve also had them help with display advertising and illustrations. If you want a more personalized approach, I recommend their 1-on-1 service. You get original designs from designers around the world. The best part? You provide your feedback, and then you end up with a product that you’re happy with or your money back. Click this link and get a free $99 upgrade. Give it a test run.
+QUESTION(S) OF THE DAY: What advice from Seth did you find most helpful? More importantly, how will you apply it to your life? Please let me know in the comments.
+Scroll below for links and show notes…
+ Read More →
+Share this:FacebookTwitterEmailReddit     
+  
+        105 Comments / Leave a comment or question
+  
+  
+
+      
+        
+
+  
+          
+        February 2, 2016      
+    
+    How to Practice Poverty and Reduce Fear
+
+        49 Comments
+    
+    Share this:FacebookTwitterEmailReddit
+          
+        Written by Tim Ferriss
+                
+          Topics: The Tim Ferriss Show        
+              
+      
+
+    
+    
+“Establish business relations with poverty.”
+– Seneca
+These 10-15 minutes are gold. I revisit this letter of Seneca at least once a quarter, and I hope you find this episode equally powerful.
+The careful listener will find an extremely practical blueprint (and exercises) for optimizing performance in high-stress situations.
+If you only have 60 seconds for one highlight, pay particular attention to this passage.
+If you enjoy the teachings, I highly recommend listening to more of Seneca’s letters. All of my favorites can be found in The Tao of Seneca: Practical Letters from a Stoic Master. For more audiobooks I love, take a look at audible.com/timsbooks.
+Enjoy!
+
+      
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+          
+      
+    
+    ( function() {
+      var func = function() {
+        var iframe_form = document.getElementById('wpcom-iframe-form-69f44d13d4deb97df9ca8f1e9c01cca1-56d053cc7b673');
+        var iframe = document.getElementById('wpcom-iframe-69f44d13d4deb97df9ca8f1e9c01cca1-56d053cc7b673');
+        if ( iframe_form && iframe ) {
+          iframe_form.submit();
+          iframe.onload = function() {
+            iframe.contentWindow.postMessage( {
+              'msg_type': 'poll_size',
+              'frame_id': 'wpcom-iframe-69f44d13d4deb97df9ca8f1e9c01cca1-56d053cc7b673'
+            }, window.location.protocol + '//wpcomwidgets.com' );
+          }
+        }
+
+        // Autosize iframe
+        var funcSizeResponse = function( e ) {
+          var origin = document.createElement( 'a' );
+          origin.href = e.origin;
+
+          // Verify message origin
+          if ( 'wpcomwidgets.com' !== origin.host )
+            return;
+
+          // Verify message is in a format we expect
+          if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+            return;
+
+          switch ( e.data.msg_type ) {
+            case 'poll_size:response':
+              var iframe = document.getElementById( e.data._request.frame_id );
+
+              if ( iframe && '' === iframe.width )
+                iframe.width = '100%';
+              if ( iframe && '' === iframe.height )
+                iframe.height = parseInt( e.data.height );
+
+              return;
+            default:
+              return;
+          }
+        }
+
+        if ( 'function' === typeof window.addEventListener ) {
+          window.addEventListener( 'message', funcSizeResponse, false );
+        } else if ( 'function' === typeof window.attachEvent ) {
+          window.attachEvent( 'onmessage', funcSizeResponse );
+        }
+      }
+      if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+      else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+      else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+    } )();
+    
+    
+
+Listen to it on iTunes.
+Stream by clicking here.
+Download both as MP3 by right-clicking here and choosing “save as.”
+
+Want to hear another segment of The Tao of Seneca and dig deeper into stoicism? — Listen to On Groundless Fears. In this episode, I dig deeper into the value of stoicism and examining unfounded fears and untested assumptions (stream below or right-click here to download):
+      
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+          
+      
+    
+    ( function() {
+      var func = function() {
+        var iframe_form = document.getElementById('wpcom-iframe-form-1f7df0652e4664038ad7f204e240def9-56d053cc7bd91');
+        var iframe = document.getElementById('wpcom-iframe-1f7df0652e4664038ad7f204e240def9-56d053cc7bd91');
+        if ( iframe_form && iframe ) {
+          iframe_form.submit();
+          iframe.onload = function() {
+            iframe.contentWindow.postMessage( {
+              'msg_type': 'poll_size',
+              'frame_id': 'wpcom-iframe-1f7df0652e4664038ad7f204e240def9-56d053cc7bd91'
+            }, window.location.protocol + '//wpcomwidgets.com' );
+          }
+        }
+
+        // Autosize iframe
+        var funcSizeResponse = function( e ) {
+          var origin = document.createElement( 'a' );
+          origin.href = e.origin;
+
+          // Verify message origin
+          if ( 'wpcomwidgets.com' !== origin.host )
+            return;
+
+          // Verify message is in a format we expect
+          if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+            return;
+
+          switch ( e.data.msg_type ) {
+            case 'poll_size:response':
+              var iframe = document.getElementById( e.data._request.frame_id );
+
+              if ( iframe && '' === iframe.width )
+                iframe.width = '100%';
+              if ( iframe && '' === iframe.height )
+                iframe.height = parseInt( e.data.height );
+
+              return;
+            default:
+              return;
+          }
+        }
+
+        if ( 'function' === typeof window.addEventListener ) {
+          window.addEventListener( 'message', funcSizeResponse, false );
+        } else if ( 'function' === typeof window.attachEvent ) {
+          window.attachEvent( 'onmessage', funcSizeResponse );
+        }
+      }
+      if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+      else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+      else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+    } )();
+    
+    
+
+
+This episode is brought to you by Headspace, the world’s most popular meditation app (more than 4,000,000 users).  It’s used in more than 150 countries, and many of my closest friends swear by it.  Try Headspace’s free Take10 program —  10 minutes of guided meditation a day for 10 days. It’s like a warm bath for your mind. Meditation doesn’t need to be complicated or expensive, and it’s had a huge impact on my life. Try Headspace for free for a few days and see what I mean.
+This podcast is also brought to you by Wealthfront. Wealthfront is a massively disruptive (in a good way) set-it-and-forget-it investing service, led by technologists from places like Apple. It has exploded in popularity in the last two years and now has more than $2.5B under management. Why? Because you can get services previously limited to the ultra-wealthy and only pay pennies on the dollar for them, and it’s all through smarter software instead of retail locations and bloated sales teams.
+Check out wealthfront.com/tim, take their risk assessment quiz, which only takes 2-5 minutes, and they’ll show you—for free–exactly the portfolio they’d put you in. If you want to just take their advice and do it yourself, you can. Well worth a few minutes to explore: wealthfront.com/tim.
+QUESTION(S) OF THE DAY: How has listening to Seneca’s teachings changed or improved your life? Share your thoughts in the comments. 
+Scroll below for links and show notes…
+ Read More →
+Share this:FacebookTwitterEmailReddit     
+  
+        49 Comments / Leave a comment or question
+  
+  
+
+      
+        
+
+  
+          
+        February 1, 2016      
+    
+    The Music a World-Class DJ Uses to Fall Asleep
+
+        51 Comments
+    
+    Share this:FacebookTwitterEmailReddit
+          
+        Written by Tim Ferriss
+                
+          Topics: Physical Performance        
+              
+      
+
+    
+    
+I get asked about nighttime rituals a lot.
+Though I always ask high-profile podcast guests about their morning routines, the evening wind down can get neglected.
+So, what to do if you have trouble falling asleep? Or, like nearly all males in my family, you have severe onset insomnia? The morning might be a breeze, while the darkness is a nightmare.
+I thought it’d be fun to look at a real-world example, sent to me via text by Justin Boreta, best known as “Boreta” of The Glitch Mob, one of the world’s biggest electronic bands. Their music has been featured in movies like Sin City II, Edge of Tomorrow, Captain America, and Spiderman.
+Below is what he SMS’d me after listening to my 5 Tools I Use for Faster and Better Sleep (Thanks for permission to share, Justin!):
+Ahoy, Cap’n Ferriss :) I just heard your sleep podcast and wanted to share a great little routine I’ve been doing.
+An incredible composer named Max Richter created this 8-hour album that is designed to help you fall asleep. http://time.com/4022816/max-richter-sleep/
+There is a shortened version that I listen to on Spotify: https://open.spotify.com/album/7tP7WLxusDpTi1gf1JFsrT
+I put it on very quietly as I am starting my bedtime routine, so it usually ends 15-20 minutes after I’m asleep. Or I will use the Sonos sleep timer, if I’m at home.
+It started to have this Pavlovian knockout effect after a while if I use it every day, like a lullaby.
+Alternatively, if that’s too much melody, there’s an artist called Mute Button that has high-quality, long-field recordings. The gentle rain sounds + sleep timer are fantastic. I find it great to drown out hotel sounds when traveling. https://open.spotify.com/artist/53gtZjk5vhB6CxRUEbnPet
+If you find these tips useful, don’t miss my longer interview with Justin, which is full of detailed tactics for life and business.
+Questions for you all — Would you like me to describe more nighttime routines of top performers? And what nighttime routines or tools have you found most helpful in your own life?
+Please let me know in the comments below.  Thanks!
+Sweet dreams,
+Tim
+Share this:FacebookTwitterEmailReddit     
+  
+        51 Comments / Leave a comment or question
+  
+  
+
+      
+        
+
+  
+          
+        January 30, 2016      
+    
+    Naval Ravikant on Happiness Hacks and the 5 Chimps Theory
+
+        44 Comments
+    
+    Share this:FacebookTwitterEmailReddit
+          
+        Written by Tim Ferriss
+                
+          Topics: The Tim Ferriss Show        
+              
+      
+
+    
+    Naval Ravikant By Kris Krüg | CC BY-SA 2.0, via Wikimedia Commons
+“I actually think happiness is the absence of suffering. It comes from peace. That comes from being careful about desire, judgment, and reaction.” – Naval Ravikant
+When a guest is nominated for “Podcast of the Year,” that’s a good reason to bring them back for more. That’s why Naval Ravikant (@naval) is here for round two, and this time, he’s answering your most-requested questions. For those of you who missed his first episode, Naval is the CEO and a co-founder of AngelList. He has invested in more than 100 companies, including many “unicorn” mega-successes.  He is the person I call most for start-up advice.
+Most important, he has developed a diverse set of skills and rules-of-thumb that can applied nearly everywhere . Even if you have no interest in startups or investing, this is well worth your time. In this episode, Naval answers your top-10 questions from Reddit, including such topics as:
+
+Artificial intelligence
+Most-recommended books
+Happiness hacks
+Conflict resolution
+Start-up tips
+And much, much more…
+
+Enjoy!
+
+      
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+          
+      
+    
+    ( function() {
+      var func = function() {
+        var iframe_form = document.getElementById('wpcom-iframe-form-75376b29b59ff1f001b792578102894d-56d053cc909ee');
+        var iframe = document.getElementById('wpcom-iframe-75376b29b59ff1f001b792578102894d-56d053cc909ee');
+        if ( iframe_form && iframe ) {
+          iframe_form.submit();
+          iframe.onload = function() {
+            iframe.contentWindow.postMessage( {
+              'msg_type': 'poll_size',
+              'frame_id': 'wpcom-iframe-75376b29b59ff1f001b792578102894d-56d053cc909ee'
+            }, window.location.protocol + '//wpcomwidgets.com' );
+          }
+        }
+
+        // Autosize iframe
+        var funcSizeResponse = function( e ) {
+          var origin = document.createElement( 'a' );
+          origin.href = e.origin;
+
+          // Verify message origin
+          if ( 'wpcomwidgets.com' !== origin.host )
+            return;
+
+          // Verify message is in a format we expect
+          if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+            return;
+
+          switch ( e.data.msg_type ) {
+            case 'poll_size:response':
+              var iframe = document.getElementById( e.data._request.frame_id );
+
+              if ( iframe && '' === iframe.width )
+                iframe.width = '100%';
+              if ( iframe && '' === iframe.height )
+                iframe.height = parseInt( e.data.height );
+
+              return;
+            default:
+              return;
+          }
+        }
+
+        if ( 'function' === typeof window.addEventListener ) {
+          window.addEventListener( 'message', funcSizeResponse, false );
+        } else if ( 'function' === typeof window.attachEvent ) {
+          window.attachEvent( 'onmessage', funcSizeResponse );
+        }
+      }
+      if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+      else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+      else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+    } )();
+    
+    
+
+Listen to it on iTunes.
+Stream by clicking here.
+Download as an MP3 by right-clicking here and choosing “save as”.
+
+Want to hear another podcast from a world-class philosopher/entrepreneur? — Listen to my conversation with Derek Sivers, who sold a company for $28 million and gave all of it to music education. In this episode, we discuss developing confidence, finding happiness, and saying “no” to damaging trappings and temptations (stream below or right-click here to download):
+      
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+          
+      
+    
+    ( function() {
+      var func = function() {
+        var iframe_form = document.getElementById('wpcom-iframe-form-c87f8ac040ca8b428c4445f306aebd63-56d053cc91022');
+        var iframe = document.getElementById('wpcom-iframe-c87f8ac040ca8b428c4445f306aebd63-56d053cc91022');
+        if ( iframe_form && iframe ) {
+          iframe_form.submit();
+          iframe.onload = function() {
+            iframe.contentWindow.postMessage( {
+              'msg_type': 'poll_size',
+              'frame_id': 'wpcom-iframe-c87f8ac040ca8b428c4445f306aebd63-56d053cc91022'
+            }, window.location.protocol + '//wpcomwidgets.com' );
+          }
+        }
+
+        // Autosize iframe
+        var funcSizeResponse = function( e ) {
+          var origin = document.createElement( 'a' );
+          origin.href = e.origin;
+
+          // Verify message origin
+          if ( 'wpcomwidgets.com' !== origin.host )
+            return;
+
+          // Verify message is in a format we expect
+          if ( 'object' !== typeof e.data || undefined === e.data.msg_type )
+            return;
+
+          switch ( e.data.msg_type ) {
+            case 'poll_size:response':
+              var iframe = document.getElementById( e.data._request.frame_id );
+
+              if ( iframe && '' === iframe.width )
+                iframe.width = '100%';
+              if ( iframe && '' === iframe.height )
+                iframe.height = parseInt( e.data.height );
+
+              return;
+            default:
+              return;
+          }
+        }
+
+        if ( 'function' === typeof window.addEventListener ) {
+          window.addEventListener( 'message', funcSizeResponse, false );
+        } else if ( 'function' === typeof window.attachEvent ) {
+          window.attachEvent( 'onmessage', funcSizeResponse );
+        }
+      }
+      if (document.readyState === 'complete') { func.apply(); /* compat for infinite scroll */ }
+      else if ( document.addEventListener ) { document.addEventListener( 'DOMContentLoaded', func, false ); }
+      else if ( document.attachEvent ) { document.attachEvent( 'onreadystatechange', func ); }
+    } )();
+    
+    
+
+
+This podcast is brought to you by Wealthfront. Wealthfront is a massively disruptive (in a good way) set-it-and-forget-it investing service, led by technologists from places like Apple. It has exploded in popularity in the last two years and now has more than $2.5B under management. Why? Because you can get services previously limited to the ultra-wealthy and only pay pennies on the dollar for them, and it’s all through smarter software instead of retail locations and bloated sales teams.
+Check out wealthfront.com/tim, take their risk assessment quiz, which only takes 2-5 minutes, and they’ll show you—for free–exactly the portfolio they’d put you in. If you want to just take their advice and do it yourself, you can. Well worth a few minutes to explore: wealthfront.com/tim.
+This podcast is also brought to you by Athletic Greens. I get asked all the time, “if you could only use one supplement, what would it be?” My answer is, inevitably, Athletic Greens. It is my all-in-one nutritional insurance. I recommended it in The 4-Hour Body and did not get paid to do so. Get 50% off your order at Athletic Greens.com/Tim.
+QUESTION(S) OF THE DAY: In terms of making or saving money, what have been your most valuable lessons learned? Please let me know in the comments.
+Scroll below for links and show notes…
+ Read More →
+Share this:FacebookTwitterEmailReddit     
+  
+        44 Comments / Leave a comment or question
+  
+  
+
+      
+        
+    Post navigation
+
+  
+        ← Older posts
+    
+    
+  
+  
+  
+    
+    
+  
+
+  
+    
+      Tim on Facebook…
+  
+  (function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=2530096808"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));
+  Popular Podcasts                
+                  How Seth Godin Manages His Life — Rules, Principles, and Obsessions
+                
+                                
+                  Meet “Scorpion,” The Real-Life Santa Claus with an IQ of 197
+                
+                                
+                  5 Morning Rituals That Help Me Win The Day
+                
+                                
+                  Naval Ravikant on Happiness Hacks and the 5 Chimps Theory
+                
+                Most Popular              
+                Podcast – The Tim Ferriss Show
+              
+                            
+                How to Lose 20 lbs. of Fat in 30 Days… Without Doing Any Exercise
+              
+                            
+                How To Lose 20-30 Pounds In 5 Days: The Extreme Weight Cutting and Rehydration Secrets of UFC Fighters
+              
+                            
+                How Seth Godin Manages His Life — Rules, Principles, and Obsessions
+              
+              Topics    
+  30-Day Challenges (2)
+
+  4-Hour Case Studies (47)
+
+  Automation (7)
+
+  Dance (3)
+
+  E-mail Detox (21)
+
+  Entrepreneurship (55)
+
+  Filling the Void (89)
+
+  Gadgets (15)
+
+  Geoarbitrage (8)
+
+  Interviews (28)
+
+  Investing (17)
+
+  Language (16)
+
+  Low-Information Diet (41)
+
+  Marketing (52)
+
+  Mental Performance (39)
+
+  Mini-retirements (24)
+
+  Muse Examples (9)
+
+  Nonsense (5)
+
+  Opening the Kimono – OTK (4)
+
+  Outsourcing Life (16)
+
+  Physical Performance (46)
+
+  Practical Philosophy (31)
+
+  Presentations (3)
+
+  Protecting Time (12)
+
+  Quarterly Shipments (3)
+
+  Random (28)
+
+  Remote Offices (7)
+
+  Rockstar Living in… (5)
+
+  Science (4)
+
+  The 4-Hour Body – 4HB (47)
+
+  The 4-Hour Chef – 4HC (39)
+
+  The 4-Hour Chef Recipes (1)
+
+  The Book – 4HWW (43)
+
+  The Slow-Carb Diet (4)
+
+  The Tim Ferriss Experiment – TFX (11)
+
+  The Tim Ferriss Show (117)
+
+  Tim Ferriss Book Club (6)
+
+  Travel (66)
+
+  Uncategorized (37)
+
+  Writing and Blogging (23)
+
+    
+  
+
+  
+
+  
+    
+      XML Sitemap / Site Terms of Service / Powered by WordPress.com VIP
+    
+    
+      Copyright © 2007–2016 Tim Ferriss.
+      THE 4-HOUR® is a registered trademark of Tim Ferriss.
+      All rights reserved.
+    
+  
+
+
+    
+    //<![CDATA[
+    var infiniteScroll = {"settings":{"id":"main","ajaxurl":"http:\/\/fourhourworkweek.com\/?infinity=scrolling","type":"scroll","wrapper":true,"wrapper_class":"infinite-wrap","footer":"page","click_handle":"1","text":"Older posts","totop":"Scroll back to top","currentday":"30.01.16","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":0,"history":{"host":"fourhourworkweek.com","path":"\/blog\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"page":0,"pagename":"blog","error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","static":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"comments_popup":"","meta_key":"","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[12220,12144,12296,12298,12299,12304,12305,12306,12307,12308,12309,14178,14181,14182,14557,14558,14938,14937,14939,14940,14941,15040,15041,15042,15043,15044,23337],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"posts_per_page":7,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":false,"update_post_term_cache":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"100","no_found_rows":false,"order":"DESC"},"last_post_date":"2016-01-30 04:18:54","stats":"blog=56542934&v=wpcom&tz=-8&user_id=0&subd=fhww&x_pagetype=infinite"}};
+    //]]>
+    
+    
+
+
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+
+
+
+  
+    //initialize and attach hovercards to all gravatars
+    jQuery( document ).ready( function( $ ) {
+
+      if (typeof Gravatar === "undefined"){
+        return;
+      }
+
+      if ( typeof Gravatar.init !== "function" ) {
+        return;
+      }     
+
+      Gravatar.profile_cb = function( hash, id ) {
+        WPGroHo.syncProfileData( hash, id );
+      };
+      Gravatar.my_hash = WPGroHo.my_hash;
+      Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+    });
+  
+
+    
+  
+    
+      
+        
+          
+            The Blog of Author Tim Ferriss          
+        
+        
+          Powered by WordPress.com VIP        
+      
+    
+    
+  
+    window.WPCOM_sharing_counts = {"http:\/\/fourhourworkweek.com\/2016\/02\/24\/kaskade-and-sekou-andrews\/":25805,"http:\/\/fourhourworkweek.com\/2016\/02\/18\/shaun-white-the-most-unholy-snowboarder-ever\/":25783,"http:\/\/fourhourworkweek.com\/2016\/02\/16\/scorpion\/":25613,"http:\/\/fourhourworkweek.com\/2016\/02\/10\/seth-godin\/":25428,"http:\/\/fourhourworkweek.com\/2016\/02\/02\/how-to-practice-poverty-and-reduce-fear\/":25268,"http:\/\/fourhourworkweek.com\/2016\/02\/01\/music-for-sleeping\/":25201,"http:\/\/fourhourworkweek.com\/2016\/01\/30\/naval-ravikant-on-happiness-hacks\/":25091};
+  
+    
+      var windowOpen;
+    jQuery(document).on( 'ready post-load', function(){
+      jQuery( 'a.share-facebook' ).on( 'click', function() {
+        if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+          windowOpen.close();
+        }
+        windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+        return false;
+      });
+    });
+    
+        
+      var windowOpen;
+    jQuery(document).on( 'ready post-load', function(){
+      jQuery( 'a.share-twitter' ).on( 'click', function() {
+        if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+          windowOpen.close();
+        }
+        windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+        return false;
+      });
+    });
+    
+      
+    
+      Send to Email Address
+      
+
+      
+        Your Name
+        
+
+        Your Email Address
+        
+
+            
+       document.getElementById('jetpack-source_f_name').value = ''; 
+      
+      
+      
+      Cancel
+
+      
+        Post was not sent - check your email addresses!     
+
+      
+        Email check failed, please try again      
+
+      
+        Sorry, your blog cannot share posts by email.     
+    
+  
+
+  
+    
+      
+      Post to
+      
+            
+
+      
+        Cancel
+        
+        
+        
+        
+        
+        
+      
+
+          
+
+    
+  
+
+
+
+
+/* <![CDATA[ */
+var jetpackSlideshowSettings = {"spinner":"http:\/\/s1.wp.com\/wp-content\/mu-plugins\/shortcodes\/img\/slideshow-loader.gif","blog_id":"56542934","blog_subdomain":"fhww","user_id":"0"};
+/* ]]> */
+
+
+/* <![CDATA[ */
+var wpcomVipAnalytics = {"is_404":"0","is_home":"1","is_single":"0","is_front_page":"0","is_archive":"0","percentToTrack":"1"};
+/* ]]> */
+
+
+/* <![CDATA[ */
+var JetpackEmojiSettings = {"base_url":"http:\/\/s0.wp.com\/wp-content\/mu-plugins\/emoji\/twemoji\/"};
+/* ]]> */
+
+
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/fourhourworkweek.com\/wp-admin\/admin-ajax.php","nonce":"ba2aa7a843","display_exif":"1","display_geo":"1","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/fhww.wordpress.com\/wp-login.php?redirect_to=http%3A%2F%2Ffourhourworkweek.com%2F2016%2F01%2F30%2Fnaval-ravikant-on-happiness-hacks%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=56542934&v=wpcom&tz=-8&user_id=0&subd=fhww","is_public":"1","reblog_enabled":""};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/fourhourworkweek.com\/wp-admin\/admin-ajax.php","nonce":"ba2aa7a843","display_exif":"1","display_geo":"1","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/fhww.wordpress.com\/wp-login.php?redirect_to=http%3A%2F%2Ffourhourworkweek.com%2F2016%2F01%2F30%2Fnaval-ravikant-on-happiness-hacks%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=56542934&v=wpcom&tz=-8&user_id=0&subd=fhww","is_public":"1","reblog_enabled":""};
+/* ]]> */
+
+
+
+
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+
+
+
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+
+      jQuery.extend( infiniteScroll.settings.scripts, ["jquery","jquery-core","jquery-migrate","postmessage","jquery_inview","jetpack_resize","spin","jquery.spin","sranalytics","grofiles-cards","wpgroho","devicepx","the-neverending-homepage","jquery-cycle","jetpack-slideshow","simplereach","enqueued-scripts-min","wpcom-vip-analytics","twemoji","jetpack-emoji","jetpack-emoji-init","swfobject","videopress","jetpack-carousel","twitter-widgets","twitter-widgets-infinity","twitter-widgets-pending","tiled-gallery","sharing-js"] );
+      jQuery.extend( infiniteScroll.settings.styles, ["smileyproject","jetpack_likes","the-neverending-homepage","jetpack-slideshow","wpcom-core-compat-playlist-styles","mp6hacks","wpcom-bbpress2-staff-css","mehr-style","tf-jquery-reveal","jetpack-emoji-css","noticons","geo-location-flair","reblogging","sharedaddy","genericons","h4-global","jetpack-carousel","tiled-gallery","jetpack-carousel-ie8fix"] );
+    
+
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'56542934','blog_tz':'-8','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'56542934','v':'wpcom','tz':'-8','user_id':'0','subd':'fhww'}]);
+function st_vt() {var x=document.createElement("img");x.src="http://pixel.wp.com/g.gif?blog=56542934&v=wpcomvt&tz=-8&user_id=0&subd=fhww&rand="+Math.random();}
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtXRThKbHcwXTdETWI1alhvb1oseHImN101ZFpEakVpYjlQYVFLYzBaVHRtPz0wXS9bMy85LGc/Zi9qTHZYQnJoVEVNRUVYTllEfk9TS3h+VUI2Zyt4a0JLT0dQRjlaMTRIQmJqd3h8amhPa1ZkbnpVckd1ZCwzJlNVQkNHWTRoRzJnZVJ6bC04ZlFJdnJLUnpUWmRqVl05NixpMnplQThibUFTWDREckNiVkd1a0UxTE9OQTgzR2FoQThvZEFzaGl0M1QlLG1bNTJ6dmd2JUdCVVp3ZUlBY3JMYUl1Z2RoLT8sTTlLM0pt'}]);
+_stq.push([ 'clickTrackerInit', '56542934', '0' ]);
+  
+
+  
+    adroll_adv_id = "23VJ6FL565GNZH3M6CMH2J";
+    adroll_pix_id = "FTQCCOT57JHWVLQA7TU7IT";
+
+    (function () {
+      var _onload = function(){
+        if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+        if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+        var scr = document.createElement("script");
+        var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+        scr.setAttribute('async', 'true');
+        scr.type = "text/javascript";
+        scr.src = host + "/j/roundtrip.js";
+
+        ((document.getElementsByTagName('head') || [null])[0] || document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+      };
+
+      if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+      else {window.attachEvent('onload', _onload)}
+    }());
+  
+  
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+  wpcom_mobile_user_agent_info.init();
+  var mobileStatsQueryString = "";
+  
+  if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+    mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+  
+  if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+    mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+  
+  if( wpcom_mobile_user_agent_info.isIPad() )
+    mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+  if( "" != mobileStatsQueryString ) {
+    new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+  }
+  
+}
+
+
+
+
+
+var ftRandom = Math.random()*1000000; document.write('<iframe style="position:absolute; visibility:hidden; width:1px; height:1px;" src="https://servedby.flashtalking.com/container/6462;41712;4773;iframe/?spotName=Vimeo_Retargeting&U1=59931&U4=documentary&U5=landing_page&U6=allowed_in_trending&U7=&U8=trending_counter_off&U9=&cachebuster='+ftRandom+'"></iframe>');
+
