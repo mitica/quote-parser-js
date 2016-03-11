@@ -78,6 +78,13 @@ describe('parser', function() {
 		assert.equal('Hugh Ray', quotes[0].name.text);
 		assert.equal(1, quotes[0].index);
 
+		text = '"It\'s a hellacious problem," said Hugh Ray to the...';
+		quotes = parser.parse(text, 'en', { minLength: 10 });
+		// console.log(quotes);
+		assert.equal(1, quotes.length);
+		assert.equal('Hugh Ray to the...', quotes[0].name.text);
+		assert.equal(1, quotes[0].index);
+
 		text = '"I\'ll win states that aren\'t in play." Trump said.';
 		quotes = parser.parse(text, 'en');
 		// console.log(quotes);

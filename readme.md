@@ -4,19 +4,25 @@ A node.js module for extracting quotes from text.
 
 Supported languages: ['ro', 'ru', 'bg', 'hu', 'it', 'cs', 'pl', 'en'].
 
-**quote-parser** doesn't change original text, so you migth replace _&nbsp;_ with SPACE.
+The project detects 2 parts of a quote:
+ 1. The quote body - exact;
+ 2. The author's name - NOT exact.
+
 
 ## Usage
 
 ```
 var parser = require('quote-parser');
+// example 1
+var text = '"It\'s a hellacious problem," said Hugh Ray to the...';
+var quotes = parser.parse(text, 'en', { minLength: 10 });
 
-var quotes = parser.parse('text', 'ru');
-```
+console.log(quotes);
+// [ { index: 1,
+//    text: 'It\'s a hellacious problem,',
+//    name: { index: 34, text: 'Hugh Ray to the...' } } ]
 
-## Example
-
-```
+// example 2
 var text = 'Plus "Nu cred ca este adevarat!", a spus Vlad Filat';
 var lang = 'ro';
 var quotes = parser.parse(text, lang, {
@@ -44,7 +50,7 @@ Return a list of supported languages.
 Extract quotes from text.
 
 - **text** (String) **required**;
-- **lang** (String) **required** - two chars language code;
+- **lang** (String) - two chars language code, default: `en`;
 - **options** (Object):
   - *minLength* (Number) - min quote length, default: 30;
   - *persons* ([Person]) - a list of persons, a person:
