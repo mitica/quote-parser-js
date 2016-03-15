@@ -66,3 +66,13 @@ A list of quotes:
   - **text** (String);
   - **index** (Number);
 - **author** (Object) - Author if founded.
+
+## Changelog
+
+### 16-03-2016, v0.1.4
+
+- EN: Support new line quote author's name:
+```
+"Quote body"
+- Author Name
+```
