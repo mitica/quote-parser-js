@@ -117,8 +117,23 @@ describe('parser', function() {
 				return done(error);
 			}
 			var quotes = parser.parse(text, 'en');
-			assert.equal(4, quotes.length);
+			assert.ok(quotes.length > 0);
 			done();
 		});
+	});
+
+	it('EN: should parse new line quote author\'s name', function() {
+		var text = '"It\'s a hellacious problem,"\n \t- Hugh Ray';
+		var quotes = parser.parse(text, 'en', { minLength: 10 });
+		// console.log(quotes);
+		assert.equal(1, quotes.length);
+		assert.equal('Hugh Ray', quotes[0].name.text);
+		assert.equal(1, quotes[0].index);
+	});
+
+	it('EN: should fail invalid new line quote author\'s name', function() {
+		var text = '"It\'s a hellacious problem,"\n \t- Hugh Ray jhsgfhgsdh gsdhj gdhjsgf sdgjsdf jgdfhjs';
+		var quotes = parser.parse(text, 'en', { minLength: 10 });
+		assert.equal(0, quotes.length);
 	});
 });

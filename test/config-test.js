@@ -14,6 +14,9 @@ describe('config', function() {
 	it('should get REGS', function() {
 		config.languages().forEach(function(lang) {
 			var regs = config.regs(lang);
+			// if (lang === 'en') {
+			// 	console.log(regs);
+			// }
 			assert.ok(regs);
 			assert.ok(regs.length);
 		});
