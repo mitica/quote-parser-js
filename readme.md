@@ -55,6 +55,10 @@ Extract quotes from text.
   - *minLength* (Number) - min quote length, default: 30;
   - *persons* ([Person]) - a list of persons, a person:
     - *index* (Number) **required** - index of the person name in text;
+  - *extraRules* ([Rule]) - an array of rules. A rule has:
+    - **reg** (Regexp) - a regular expression
+    - **quote** (Number) - quote index in regex.
+    - **name** (Number) - name index in regex.
 
 ### Result
 
@@ -68,6 +72,11 @@ A list of quotes:
 - **author** (Object) - Author if founded.
 
 ## Changelog
+
+### 17-03-2016, v0.1.5
+
+- Added `extraRules` option
+- Fixed SEPARATOR regex
 
 ### 16-03-2016, v0.1.4
 
