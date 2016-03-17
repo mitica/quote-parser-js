@@ -11,14 +11,14 @@ describe('config', function() {
 		assert.equal(8, languages.length);
 	});
 
-	it('should get REGS', function() {
+	it('should get RULES', function() {
 		config.languages().forEach(function(lang) {
-			var regs = config.regs(lang);
+			var rules = config.rules(lang);
 			// if (lang === 'en') {
-			// 	console.log(regs);
+			// 	console.log(rules);
 			// }
-			assert.ok(regs);
-			assert.ok(regs.length);
+			assert.ok(rules);
+			assert.ok(rules.length);
 		});
 	});
 });

@@ -135,5 +135,26 @@ describe('parser', function() {
 		var text = '"It\'s a hellacious problem,"\n \t- Hugh Ray jhsgfhgsdh gsdhj gdhjsgf sdgjsdf jgdfhjs';
 		var quotes = parser.parse(text, 'en', { minLength: 10 });
 		assert.equal(0, quotes.length);
+
+		text = '"It\'s a hellacious problem,"\n \t- \nHugh Ray';
+		quotes = parser.parse(text, 'en', { minLength: 10 });
+		assert.equal(0, quotes.length);
+	});
+
+	it('should work with extraRules option', function() {
+		var text = '“I believe that everything happens for a reason...”\n \t― \nMarilyn Monroe';
+		var options = {
+			minLength: 10,
+			extraRules: [{
+				reg: /“([^\f\t\v“”„]{10,})”[ \t\u00A0]*[\n\r]+[ \t\u00A0]*[\u2010-\u2015-][ \t\u00A0\r\n]*([^\f\n\r\t\v,]{3,30})(?:$|[\n\r])/gi,
+				quote: 0,
+				name: 1
+			}]
+		};
+
+		var quotes = parser.parse(text, 'en', options);
+
+		assert.equal(1, quotes.length);
+		assert.equal('Marilyn Monroe', quotes[0].name.text);
 	});
 });
