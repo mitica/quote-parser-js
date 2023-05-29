@@ -1,10 +1,10 @@
 {
   "name": "quote-parser",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A node.js module for extracting quotes from text",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -R spec",
+    "test": "./node_modules/.bin/mocha -R spec",
     "lint": "eslint ."
   },
   "repository": {

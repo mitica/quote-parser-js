@@ -2,7 +2,7 @@
 
 A node.js module for extracting quotes from text.
 
-Supported languages: ['ro', 'ru', 'bg', 'hu', 'it', 'cs', 'pl', 'en'].
+Supported languages: ['ro', 'ru', 'bg', 'hu', 'it', 'cs', 'pl', 'en', 'es'].
 
 The project detects 2 parts of a quote:
  1. The quote body - exact;
