@@ -251,4 +251,18 @@ Según la Ley Electoral, los partidos y federaciones que establezcan un pacto de
 			quotes[0].name.text
 		);
 	});
+
+	it("ES: 5", function () {
+		const text = `Parece que en los últimos tiempos ha subido algo de talla. Incluso ella misma se lo ha reconocido al periodista Aurelio Manzano: «He engordado un poquito porque, desde que estoy con Íñigo, es verdad que a él le gusta mucho salir, cocinar, comer y vamos a muchas comidas».`;
+		const quotes = parser.parse(text, "es");
+		assert.equal(1, quotes.length);
+		assert.equal(` al periodista Aurelio Manzano`, quotes[0].name.text);
+	});
+
+	it("ES: 6", function () {
+		const text = `Así lo relataban en el programa 'Sálvame' donde Mayte Ametlla explicaba que «quiere alejarse un tiempo de su familia para ingresar en un centro especializado». Era Gema López quien precisaba que «va a estar ingresada tres semanas». Esta no es la primera vez que la marquesa de Griñón se somete a un estricto régimen de adelgazamiento. De hecho, en 2016 eligió la exclusiva Clínica Buchinger, en Marbella, para someterse a un tratamiento que le permitió perder 20 kilos después de subir de peso por problemas de tiroides.`;
+		const quotes = parser.parse(text, "es");
+		assert.equal(1, quotes.length);
+		assert.equal(" 'Sálvame' donde Mayte Ametlla", quotes[0].name.text);
+	});
 });
