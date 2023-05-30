@@ -73,6 +73,10 @@ A list of quotes:
 
 ## Changelog
 
+### 30-05-2023, v0.1.8
+
+- Added `es` support
+
 ### 17-03-2016, v0.1.5
 
 - Added `extraRules` option
