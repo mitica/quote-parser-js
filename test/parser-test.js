@@ -1,7 +1,6 @@
-/*eslint handle-callback-err:1*/
 "use strict";
 
-var parser = require("../lib/index");
+var parser = require("../dist/cjs/index");
 var assert = require("assert");
 
 describe("parser", function () {

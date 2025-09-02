@@ -1,15 +1,27 @@
 {
   "name": "quote-parser",
-  "version": "0.1.9",
+  "version": "1.0.0",
   "description": "A node.js module for extracting quotes from text",
-  "main": "./lib/index.js",
+  "main": "./dist/cjs/index.js",
+  "types": "./dist/cjs/index.d.ts",
+  "module": "./dist/esm/index.js",
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/index.js",
+      "import": "./dist/esm/index.js"
+    }
+  },
   "scripts": {
-    "test": "./node_modules/.bin/mocha -R spec",
-    "lint": "eslint ."
+    "build": "tsc && tsc -p tsconfig.esm.json",
+    "test": "mocha -R spec test/**/*.js",
+    "lint": "eslint .",
+    "clean": "rm -rf dist/*",
+    "prepare": "yarn build",
+    "prepublishOnly": "yarn test && yarn lint"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Mitica/quote-parser-js.git"
+    "url": "https://github.com/mitica/quote-parser-js.git"
   },
   "keywords": [
     "quote",
@@ -21,10 +33,11 @@
   "author": "Dumitru Cantea",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mitica/quote-parser-js/issues"
+    "url": "https://github.com/mitica/quote-parser-js/issues"
   },
-  "homepage": "https://github.com/Mitica/quote-parser-js",
+  "homepage": "https://github.com/mitica/quote-parser-js",
   "devDependencies": {
-    "mocha": "^2.3.0"
+    "mocha": "^11.7.2",
+    "typescript": "^5.9.2"
   }
 }

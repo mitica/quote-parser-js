@@ -12,10 +12,10 @@ The project detects 2 parts of a quote:
 ## Usage
 
 ```
-var parser = require('quote-parser');
+import parser from 'quote-parser';
 // example 1
-var text = '"It\'s a hellacious problem," said Hugh Ray to the...';
-var quotes = parser.parse(text, 'en', { minLength: 10 });
+const text = '"It\'s a hellacious problem," said Hugh Ray to the...';
+const quotes = parser.parse(text, 'en', { minLength: 10 });
 
 console.log(quotes);
 // [ { index: 1,
@@ -23,9 +23,9 @@ console.log(quotes);
 //    name: { index: 34, text: 'Hugh Ray to the...' } } ]
 
 // example 2
-var text = 'Plus "Nu cred ca este adevarat!", a spus Vlad Filat';
-var lang = 'ro';
-var quotes = parser.parse(text, lang, {
+const text = 'Plus "Nu cred ca este adevarat!", a spus Vlad Filat';
+const lang = 'ro';
+const quotes = parser.parse(text, lang, {
   persons: [{
     index: 41,
     id: 101
@@ -72,6 +72,11 @@ A list of quotes:
 - **author** (Object) - Author if founded.
 
 ## Changelog
+
+### 02-09-2025, v1.0.0
+
+- TypeScript migration
+- esm & cjs support
 
 ### 30-05-2023, v0.1.8
 
