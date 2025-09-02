@@ -1,6 +1,6 @@
 import { languages, isValidLanguage } from "./config";
-import { parse as parseQuotes, ParseOptions, Quote } from "./parser";
-import { formatOptions } from "./helpers";
+import { parse as parseQuotes } from "./parser";
+import { ParseOptions, Person, Quote } from "./common";
 
 export function parse(text: string, lang: string, options?: ParseOptions) {
   if (!text) {
@@ -12,8 +12,7 @@ export function parse(text: string, lang: string, options?: ParseOptions) {
   if (!isValidLanguage(lang)) {
     throw new Error('Lang "' + lang + '" is not supported');
   }
-  options = formatOptions(options);
   return parseQuotes(text, lang, options);
 }
 
-export { languages, type ParseOptions, type Quote };
+export { languages, type ParseOptions, type Quote, type Person };

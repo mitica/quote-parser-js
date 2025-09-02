@@ -264,4 +264,39 @@ Según la Ley Electoral, los partidos y federaciones que establezcan un pacto de
 		assert.equal(1, quotes.length);
 		assert.equal(" 'Sálvame' donde Mayte Ametlla", quotes[0].name.text);
 	});
+
+	it("3 quotes", () => {
+		const text = `
+Premierul României a declarat astăzi că "situația economică se îmbunătățește constant".
+Ministrul a spus: "Vom lua toate măsurile necesare pentru susținerea familiilor".
+„Investițiile în educație sunt prioritatea noastră“, a afirmat președintele.
+Directorul companiei a menționat: „Rezultatele din acest trimestru au depășit așteptările“.
+"Romania este pe drumul cel bun", a subliniat expertul economic.
+`;
+		const quotes = parser.parse(text, "ro");
+		// console.log(quotes);
+		assert.equal(5, quotes.length);
+		assert.equal(
+			"situația economică se îmbunătățește constant",
+			quotes[0].text
+		);
+		assert.equal("Premierul României a", quotes[0].name.text);
+		assert.equal(
+			"Vom lua toate măsurile necesare pentru susținerea familiilor",
+			quotes[1].text
+		);
+		assert.equal("Ministrul a spus", quotes[1].name.text);
+		assert.equal(
+			"Investițiile în educație sunt prioritatea noastră",
+			quotes[2].text
+		);
+		assert.equal("președintele.", quotes[2].name.text);
+		assert.equal(
+			"Rezultatele din acest trimestru au depășit așteptările",
+			quotes[3].text
+		);
+		assert.equal("Directorul companiei", quotes[3].name.text);
+		assert.equal("Romania este pe drumul cel bun", quotes[4].text);
+		assert.equal("expertul economic.", quotes[4].name.text);
+	});
 });

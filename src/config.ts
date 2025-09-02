@@ -1,3 +1,5 @@
+import { Rule } from "./common";
+
 export const LANGUAGES = [
   "ro",
   "ru",
@@ -24,8 +26,11 @@ const QUOTE_MARKS = [
   ["„", '"', "”"],
 ];
 
+// unique
+const ALL_QUOTE_MARKS = QUOTE_MARKS.flat();
+
 const QUOTE = "([^\\f\\t\\v]{10,})";
-const START_NAME = "([^\\f\\n\\r\\t\\v,]{3,30})";
+const START_NAME = `([^\\f\\n\\r\\t\\v]{3,30})`;
 const END_NAME =
   "((?:[^\\f\\n\\r\\t\\v,]{3,50})(?:,[^\\f\\n\\r\\t\\v\\.,]{3,30})?)";
 const NAME_SPACE = "[ \\t\\u00A0]+";
@@ -199,8 +204,6 @@ function verbs(list: string[]): string {
   return "(?:" + list.join("|") + ")";
 }
 
-type Rule = { reg: RegExp; name: number; quote: number };
-
 const DATA: Record<string, any> = {
   // ...existing code...
 };
@@ -271,6 +274,16 @@ Object.assign(DATA, {
         NAME_SPACE +
         verbs(VERBS.ro.second) +
         "(?: c[ăa])?:" +
+        NAME_SPACE,
+      // general
+      START_NAME +
+        NAME_SPACE +
+        "(?:a|i-a|l-a)?" +
+        NAME_SPACE_OPTIONAL +
+        verbs([...VERBS.ro.first, ...VERBS.ro.second]) +
+        NAME_SPACE +
+        `(?:[^\\.\\n${ALL_QUOTE_MARKS}]+)?` +
+        "(?:c[ăa]|\\:)" +
         NAME_SPACE,
     ],
     end: [

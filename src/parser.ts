@@ -1,28 +1,9 @@
 import { rules } from "./config";
-import { isValidQuote, findQuoteAuthor } from "./helpers";
-
-export interface Quote {
-  index: number;
-  text: string;
-  name: {
-    index: number;
-    text: string;
-  };
-  author?: any;
-}
-
-export interface ParseOptions {
-  minLength?: number;
-  persons?: Array<{ index: number; id: number | string }>;
-  extraRules?: Array<{
-    reg: RegExp;
-    quote: number;
-    name: number;
-  }>;
-}
+import { isValidQuote, findQuoteAuthor, formatOptions } from "./helpers";
+import { Rule, Quote, ParseOptions } from "./common";
 
 export function findQuotes(
-  rule: any,
+  rule: Rule,
   text: string,
   lang: string,
   options: ParseOptions
@@ -55,14 +36,14 @@ export function parse(
   lang: string = "en",
   options?: ParseOptions
 ): Quote[] {
-  options = options || {};
+  options = formatOptions(options);
   const rulesArr = rules(lang);
   let quotes: Quote[] = [];
-  rulesArr.forEach((rule: any) => {
+  rulesArr.forEach((rule) => {
     quotes = quotes.concat(findQuotes(rule, text, lang, options));
   });
   if (options.extraRules && options.extraRules.length > 0) {
-    options.extraRules.forEach((rule: any) => {
+    options.extraRules.forEach((rule) => {
       if (
         rule.reg &&
         typeof rule.quote === "number" &&
@@ -72,5 +53,16 @@ export function parse(
       }
     });
   }
-  return quotes;
+  // sort by index & name.index
+  return quotes
+    .sort((a, b) => {
+      if (a.index === b.index) {
+        return a.name.index - b.name.index;
+      }
+      return a.index - b.index;
+    })
+    .filter(
+      (quote, index, self) =>
+        index === self.findIndex((q) => q.index === quote.index)
+    );
 }
