@@ -1,7 +1,6 @@
-/*eslint handle-callback-err:1*/
 'use strict';
 
-var config = require('../lib/config');
+var config = require('../dist/cjs/config');
 var assert = require('assert');
 
 describe('config', function() {

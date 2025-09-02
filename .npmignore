@@ -1,0 +1,6 @@
+src/
+test/
+*.log
+*.md
+.git*
+tsconfig*.json
