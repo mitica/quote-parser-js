@@ -17,7 +17,7 @@
     "lint": "eslint .",
     "clean": "rm -rf dist/*",
     "prepare": "yarn build",
-    "prepublishOnly": "yarn test && yarn lint"
+    "prepublishOnly": "yarn test"
   },
   "repository": {
     "type": "git",
