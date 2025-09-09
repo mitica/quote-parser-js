@@ -285,7 +285,7 @@ Directorul companiei a menționat: „Rezultatele din acest trimestru au depăș
 			"Vom lua toate măsurile necesare pentru susținerea familiilor",
 			quotes[1].text
 		);
-		assert.equal("Ministrul a spus", quotes[1].name.text);
+		assert.equal("Ministrul", quotes[1].name.text);
 		assert.equal(
 			"Investițiile în educație sunt prioritatea noastră",
 			quotes[2].text
@@ -298,5 +298,12 @@ Directorul companiei a menționat: „Rezultatele din acest trimestru au depăș
 		assert.equal("Directorul companiei", quotes[3].name.text);
 		assert.equal("Romania este pe drumul cel bun", quotes[4].text);
 		assert.equal("expertul economic.", quotes[4].name.text);
+	});
+
+	it("RO: Long name", function () {
+		const text = `Vladimir VORONIN, CANDIDAT DIN PARTEA BLOCULUI PATRIOTIC: „Mănăstirea Căpriana a fost înființată de bunelul lui Ștefan cel Mare. De aici se începe toată istoria noastră.”`;
+		const quotes = parser.parse(text, "ro");
+		assert.equal(1, quotes.length);
+		assert.equal(`Vladimir VORONIN, CANDIDAT DIN PARTEA BLOCULUI PATRIOTIC`, quotes[0].name.text);
 	});
 });

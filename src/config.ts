@@ -30,7 +30,8 @@ const QUOTE_MARKS = [
 const ALL_QUOTE_MARKS = QUOTE_MARKS.flat();
 
 const QUOTE = "([^\\f\\t\\v]{10,})";
-const START_NAME = `([^\\f\\n\\r\\t\\v]{3,30})`;
+const START_NAME = `([^\\f\\n\\r\\t\\v!;?]{3,30})`;
+const LONG_START_NAME = `([^\\f\\n\\r\\t\\v.!;?]{3,60})`;
 const END_NAME =
   "((?:[^\\f\\n\\r\\t\\v,]{3,50})(?:,[^\\f\\n\\r\\t\\v\\.,]{3,30})?)";
 const NAME_SPACE = "[ \\t\\u00A0]+";
@@ -260,7 +261,6 @@ Object.assign(DATA, {
       QUOTE_MARKS[8],
     ],
     start: [
-      START_NAME + ":" + NAME_SPACE,
       START_NAME +
         ",?" +
         NAME_SPACE +
@@ -275,6 +275,7 @@ Object.assign(DATA, {
         verbs(VERBS.ro.second) +
         "(?: c[ăa])?:" +
         NAME_SPACE,
+      LONG_START_NAME + ":" + NAME_SPACE,
       // general
       START_NAME +
         NAME_SPACE +
