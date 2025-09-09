@@ -304,6 +304,65 @@ Directorul companiei a menționat: „Rezultatele din acest trimestru au depăș
 		const text = `Vladimir VORONIN, CANDIDAT DIN PARTEA BLOCULUI PATRIOTIC: „Mănăstirea Căpriana a fost înființată de bunelul lui Ștefan cel Mare. De aici se începe toată istoria noastră.”`;
 		const quotes = parser.parse(text, "ro");
 		assert.equal(1, quotes.length);
-		assert.equal(`Vladimir VORONIN, CANDIDAT DIN PARTEA BLOCULUI PATRIOTIC`, quotes[0].name.text);
+		assert.equal(
+			`Vladimir VORONIN, CANDIDAT DIN PARTEA BLOCULUI PATRIOTIC`,
+			quotes[0].name.text
+		);
+	});
+
+	it("RO: Long complex", function () {
+		const text = `La evenimentul organizat în această dimineață pe malul lacului din fața Mănăstirii Căpriana au fost prezenți toți cei 4 lideri de partide care au format împreună blocul electoral - Igor Dodon, Irina Vlah, Vasile Tarlev și Vladimir Voronin. Cel din urmă însă a preferat să stea mai mult cu colegii din PCRM. Iar când a urcat în scenă pentru a începe evenimentul, a dat peste cap tot programul.
+
+„Eu i-am întrebat pe dumnealor să-i așteptăm pe toți sau fiecare pe rând.” 
+
+„Nu e bine așa, trebuie să fim toți împreună. Ori e bloc, ori ce-i. Ridicați-vă toți!”
+
+După ce s-au aliniat pe scenă, la insistența lui Voronin, fiecare a ținut câte un discurs.
+
+Vladimir VORONIN, CANDIDAT DIN PARTEA BLOCULUI PATRIOTIC: „Mănăstirea Căpriana a fost înființată de bunelul lui Ștefan cel Mare. De aici se începe toată istoria noastră.”
+
+Și dacă Voronin a vorbit doar în română, colegii lui au ales să țină discursuri despre patriotism, religie și să lanseze critici atât în română, cât și în rusă.
+
+Igor DODON, CANDIDAT DIN PARTEA BLOCULUI PATRIOTIC: „Spre deosebire de țările din regiune și din lume unde este în creștere patriotismul și suveranismul, Republica Moldova a înregistrat în ultimii ani sub așa numitele vremuri bune o depresie socială.”
+
+Vasile TARLEV, CANDIDAT DIN PARTEA BLOCULUI PATRIOTIC: „Noi acești patru, fiind diferiți, mulțumim lui Dumnezeu că am găsit punctul de tangență de a ne uni.”
+
+Irina VLAH, CANDIDAT DIN PARTEA BLOCULUI PATRIOTIC: „Am auzit deseori același lucru, uniți-vă, trebuie să fiți împreună, e timpul să-i alungăm pe acești galbeni de la putere.”
+
+La final, Irina Vlah a primit un buchet de trandafiri albi din partea echipei sale. După încheierea evenimentului, Vlah și Tarlev, însoțiți de colegii lor, au mers pe teritoriul Mănăstirii Căpriana, unde au făcut fotografii. Reprezentanții Partidului Acțiune și Solidaritate au declarat că nu vor comenta acuzațiile lansate de membrii blocului Patriotic.`;
+
+		const quotes = parser.parse(text, "ro", {
+			persons: [
+				{ id: "Q12731069", index: 193 },
+				{ id: "Q12731069", index: 1397 },
+				{ id: "Q12731069", index: 1584 },
+				{ id: "Q4164146", index: 181 },
+				{ id: "Q4164146", index: 985 },
+				{ id: "Q182230", index: 205 },
+				{ id: "Q182230", index: 1238 },
+			],
+		});
+
+		// console.log(quotes);
+		assert.equal(4, quotes.length);
+		assert.equal(
+			`Vladimir VORONIN, CANDIDAT DIN PARTEA BLOCULUI PATRIOTIC`,
+			quotes[0].name.text
+		);
+		assert.equal(
+			`Igor DODON, CANDIDAT DIN PARTEA BLOCULUI PATRIOTIC`,
+			quotes[1].name.text
+		);
+		assert.equal(`Q4164146`, quotes[1].author?.id);
+		assert.equal(
+			`Vasile TARLEV, CANDIDAT DIN PARTEA BLOCULUI PATRIOTIC`,
+			quotes[2].name.text
+		);
+		assert.equal(`Q182230`, quotes[2].author?.id);
+		assert.equal(
+			`Irina VLAH, CANDIDAT DIN PARTEA BLOCULUI PATRIOTIC`,
+			quotes[3].name.text
+		);
+		assert.equal(`Q12731069`, quotes[3].author?.id);
 	});
 });

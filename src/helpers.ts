@@ -40,10 +40,12 @@ function isAuthor(text: string, lang: string, quote: Quote, person: Person) {
   ) {
     const regPrefixes = INVALID_AUTHOR_PREFIXES[lang];
     if (regPrefixes) {
-      const prefix = text.substr(0, person.index).trim();
+      const prefix = text.substring(quote.name.index, person.index).trim();
+      // console.log("Author prefix:", `"${prefix}"`);
       for (let i = regPrefixes.length - 1; i >= 0; i--) {
         const regp = regPrefixes[i];
         if (regp.test(prefix)) {
+          // console.log("Invalid author prefix:", regp, `"${prefix}"`);
           return false;
         }
       }
